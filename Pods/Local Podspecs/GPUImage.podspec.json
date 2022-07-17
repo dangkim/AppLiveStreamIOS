@@ -1,0 +1,25 @@
+{
+  "name": "GPUImage",
+  "version": "1.0.0",
+  "summary": "GPUImage from TiFancy",
+  "description": "!!! for debug only !!!\n* GPUImage from TiFancy",
+  "homepage": "http://newgit.op.ksyun.com/sdk/libksylivedep",
+  "authors": {
+    "PENGBIN": "pengbin@kingsoft.com"
+  },
+  "license": {
+    "type": "Proprietary",
+    "text": "      Copyright 2017 kingsoft Ltd. All rights reserved.\n"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "git@newgit.op.ksyun.com:sdk/KSYLive_iOS.git",
+    "tag": "1.0.0"
+  },
+  "preserve_paths": "GPUImage.framework",
+  "public_header_files": "GPUImage.framework/Headers",
+  "vendored_frameworks": "GPUImage.framework"
+}
